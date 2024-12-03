@@ -1,6 +1,7 @@
 @echo off
 title Check User
 :main
+cls
 echo Enter Your name
 set /p name=Name:
 if %name%==Suson (goto :welcome) else (goto :notauthorize)
